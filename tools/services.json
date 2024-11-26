@@ -1,0 +1,35 @@
+[
+    {
+        "phone_codes":[
+            7
+        ],
+        "requests":[
+            {
+                "method":"POST",
+                "url":"https://api.new.yamiyami.ru/auth/register",
+                "json":{
+                    "phone":"{phone:+7 (***) ***-**-**}"
+                },
+                "headers":{
+                    "api-agent":"yamiyami",
+                    "Host":"api.new.yamiyami.ru",
+                    "Origin":"https://yamiyami.ru",
+                    "Referer":"https://yamiyami.ru/",
+                    "sec-ch-ua":"\"Not_A Brand\";v=\"99\", \"Microsoft Edge\";v=\"109\", \"Chromium\";v=\"109\"",
+                    "sec-ch-ua-mobile":"?0",
+                    "sec-ch-ua-platform":"\"Windows\"",
+                    "Sec-Fetch-Dest":"empty",
+                    "Sec-Fetch-Mode":"cors",
+                    "Sec-Fetch-Site":"same-site"
+                }
+            }
+        ]
+    },
+    {
+        "method":"POST",
+        "url":"https://api.sushifox.ru/web/auth/sendCode?client_device_type=web&uuid=t91TTy6o_wcOLmPc3oq7q",
+        "json":{
+            "phone":"{full_phone}"
+        }
+    }
+]

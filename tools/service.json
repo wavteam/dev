@@ -1,0 +1,9 @@
+{
+    "method": "POST",
+    "url": "https://google.com",
+    "json": {
+        "phone": "{phone:+7 (***) ***-**-**}",
+        "email": "{email}"
+    },
+    "headers": {}
+}
